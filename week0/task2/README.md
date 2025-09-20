@@ -19,7 +19,7 @@
 ```bash
 $ sudo apt-get update
 $ git clone https://github.com/YosysHQ/yosys.git
-$ <p style="color: black;"> cd yosys </p>
+$ cd yosys
 $ sudo apt install make     # If make is not installed pls install it
 $ sudo apt-get install build-essential clang bison flex \
     libreadline-dev gawk tcl-dev libffi-dev git \
