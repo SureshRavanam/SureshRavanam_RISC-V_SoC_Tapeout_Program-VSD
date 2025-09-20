@@ -31,9 +31,9 @@ $ sudo make install
 ```
 ##### To check the installation run this command in terminal :
 ```bash
-$ yosys
+$ yosys 
 ```
-![Alt Text](yosys_installed.png)
+![Alt Text](images/yosys_installed.png)
 
 #### <ins>**Iverilog**</ins>
 #### Tool Installation :
@@ -45,7 +45,7 @@ $ sudo apt-get install iverilog
 ```bash
 $ iverilog
 ```
-![Alt Text](iverilog1.png)
+![Alt Text](images/iverilog_status.png)
 
 #### <ins>**GTKWave**</ins>
 #### Tool Installation :
@@ -57,7 +57,7 @@ $ sudo apt-get install gtkwave
 ```bash
 $ gtkwave
 ```
-![Alt Text](gtkwave1.png)
+![Alt Text](images/gtkwave_installed.png)
 
 ### <ins>**ngspice**</ins>
 #### Tool Installation :
@@ -70,7 +70,7 @@ $sudo apt-get install ngspice
 $ ngspice
 ```
 
-![Alt Text](ngspice1.png)
+![Alt Text](images/ngspice_installed.png)
 
 ### <ins>**qrouter**</ins>
 #### Tool Installation :
@@ -82,7 +82,7 @@ $sudo apt-get install qrouter
 ```bash
 $ qrouter
 ```
-![Alt Text](qrouter1.png)
+![Alt Text](images/qrouter_installed.png)
 
 ### <ins>**Magic**</ins>
 #### Tool Installation :
@@ -105,4 +105,5 @@ make install
 ```bash
 magic
 ```
-![Alt Text](magic1.png)
+![Alt Text](images/magic_installed.png)
+
