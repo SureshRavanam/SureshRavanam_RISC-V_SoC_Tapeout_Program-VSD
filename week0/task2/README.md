@@ -1,7 +1,6 @@
 
 # RISC-V Reference SoC Tapeout Program VSD
 
-## Tools Installation
 
 #### <ins>Installation Instructions needed to follow for installing the Opensource EDA tools for RISC-V SoC Tapeout Program:</ins>
 
@@ -14,7 +13,7 @@
 
 ### **TOOLS INSTALLATION & CHECK**
 
-#### <ins>**Yosys**</ins>
+## <ins>**Yosys**</ins>
 ##### Run these commands in terminal :
 ```bash
 $ sudo apt-get update
@@ -35,7 +34,7 @@ $ yosys
 ```
 ![Alt Text](images/yosys_installed.png)
 
-#### <ins>**Iverilog**</ins>
+## <ins>**Iverilog**</ins>
 #### Tool Installation :
 ```bash
 $ sudo apt-get update
@@ -47,7 +46,7 @@ $ iverilog
 ```
 ![Alt Text](images/iverilog_status.png)
 
-#### <ins>**GTKWave**</ins>
+## <ins>**GTKWave**</ins>
 #### Tool Installation :
 ```bash
 $ sudo apt-get update
@@ -59,7 +58,7 @@ $ gtkwave
 ```
 ![Alt Text](images/gtkwave_installed.png)
 
-### <ins>**ngspice**</ins>
+## <ins>**ngspice**</ins>
 #### Tool Installation :
 ```bash
 $sudo apt-get update
@@ -72,7 +71,7 @@ $ ngspice
 
 ![Alt Text](images/ngspice_installed.png)
 
-### <ins>**qrouter**</ins>
+## <ins>**qrouter**</ins>
 #### Tool Installation :
 ```bash
 $sudo apt-get update
@@ -84,7 +83,7 @@ $ qrouter
 ```
 ![Alt Text](images/qrouter_installed.png)
 
-### <ins>**Magic**</ins>
+## <ins>**Magic**</ins>
 #### Tool Installation :
 ```bash
 $ sudo apt-get install m4
@@ -95,15 +94,15 @@ $ sudo apt-get install tcl-dev tk-dev
 $ sudo apt-get install libcairo2-dev
 $ sudo apt-get install mesa-common-dev libglu1-mesa-dev
 $ sudo apt-get install libncurses-dev
-git clone https://github.com/RTimothyEdwards/magic
-cd magic
-./configure
-make
-make install 
+$ git clone https://github.com/RTimothyEdwards/magic
+$ cd magic
+$ ./configure
+$ make
+$ make install 
 ```
 #### Tool Check :
 ```bash
-magic
+$ magic
 ```
 ![Alt Text](images/magic_installed.png)
 
