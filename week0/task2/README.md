@@ -12,7 +12,7 @@
 - 4 vCPU
 
 
-### **TOOL CHECK**
+### **TOOLS INSTALLATION & CHECK**
 
 #### <ins>**Yosys**</ins>
 ##### Run these commands in terminal :
@@ -29,37 +29,63 @@ $ make config-gcc
 $ make 
 $ sudo make install
 ```
+##### To check the installation run this command in terminal :
+```bash
+$ yosys
+```
 ![Alt Text](yosys_installed.png)
 
 #### <ins>**Iverilog**</ins>
+#### Tool Installation :
 ```bash
 $ sudo apt-get update
 $ sudo apt-get install iverilog
 ```
+#### Tool Check :
+```bash
+$ iverilog
+```
 ![Alt Text](iverilog1.png)
 
 #### <ins>**GTKWave**</ins>
+#### Tool Installation :
 ```bash
 $ sudo apt-get update
 $ sudo apt-get install gtkwave
 ```
+#### Tool Check :
+```bash
+$ gtkwave
+```
 ![Alt Text](gtkwave1.png)
 
 ### <ins>**ngspice**</ins>
+#### Tool Installation :
 ```bash
 $sudo apt-get update
 $sudo apt-get install ngspice
 ```
+#### Tool Check :
+```bash
+$ ngspice
+```
+
 ![Alt Text](ngspice1.png)
 
 ### <ins>**qrouter**</ins>
+#### Tool Installation :
 ```bash
 $sudo apt-get update
 $sudo apt-get install qrouter
 ```
+#### Tool Check :
+```bash
+$ qrouter
+```
 ![Alt Text](qrouter1.png)
 
 ### <ins>**magic**</ins>
+#### Tool Installation :
 ```bash
 $ sudo apt-get install m4
 $ sudo apt-get install tcsh
@@ -74,5 +100,9 @@ cd magic
 ./configure
 make
 make install 
+```
+#### Tool Check :
+```bash
+magic
 ```
 ![Alt Text](magic1.png)
