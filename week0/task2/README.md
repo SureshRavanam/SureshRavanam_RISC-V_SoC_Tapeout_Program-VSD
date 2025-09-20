@@ -84,7 +84,7 @@ $ qrouter
 ```
 ![Alt Text](qrouter1.png)
 
-### <ins>**magic**</ins>
+### <ins>**Magic**</ins>
 #### Tool Installation :
 ```bash
 $ sudo apt-get install m4
