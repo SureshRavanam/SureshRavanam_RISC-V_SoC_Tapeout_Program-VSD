@@ -1,7 +1,6 @@
 
 
-# Digital VLSI SoC Design – Week 0  
-**Getting Started with Digital VLSI SoC Design and Planning**
+#  Digital VLSI SoC Design and Planning – Week 0  
 
 ---
 
